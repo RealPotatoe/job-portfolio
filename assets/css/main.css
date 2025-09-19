@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import './variables.css';
+@import './header.css';
+@import './about.css';
+@import './contact.css';
+@import './divider.css';
+@import './experience.css';
+@import './footer.css';
+@import './hero.css';
+@import './skills.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: var(--font-family);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+section:not(:first-of-type) {
+    padding-top: 6rem;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.card {
+    background-color: var(--background-color-light);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: var(--card-shadow);
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-links a {
+    color: var(--font-color);
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+}
+
+footer p {
+    text-align: center;
+    color: var(--font-color);
+    font-size: 0.9rem;
+}
+
+footer p:not(:first-of-type) {
+    margin-top: 0.5rem;
+}

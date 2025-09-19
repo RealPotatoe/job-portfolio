@@ -1,0 +1,72 @@
+{
+  "title": "Moritz Bengel",
+  "hero": {
+    "title": "Moritz Bengel",
+    "subtitle": "Full Stack Developer",
+    "description": "I craft modern web applications<br> with clean code and emerging technologies ...<br> ... fueled by curiosity and coffee ☕",
+    "button": "View My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "text": "I'm a Full Stack Developer who thrives on exploring cutting-edge open source technologies with vibrant communities. Currently pursuing my Computer Science degree while working at Deutsche Telekom, I'm diving deep into Go while leveraging my strong Python foundation. I'm drawn to tools like Deno and Svelte because of their innovative approaches and active developer ecosystems",
+    "hobbiesTitle": "Hobbies",
+    "hobby1": "Coffee",
+    "hobby2": "Hiking",
+    "hobby3": "Trading Card Games"
+  },
+  "skills": {
+    "title": "Skills",
+    "favoriteTools": "My Favorite Tools",
+    "otherSkills": "Other Skills"
+  },
+  "experience": {
+    "title": "Experience & Education",
+    "job1": {
+      "date": "August 2022 - Present",
+      "title": "Dual Student Computer Science",
+      "company": "Deutsche Telekom AG, Darmstadt",
+      "description": [
+        "Extended backend unit test coverage for improved testability and maintainability",
+        "Evaluated and introduced E2E testing framework (Playwright) with automated test implementation",
+        "Agile development using Scrum methodology and modern DevOps practices (CI/CD, containerization)"
+      ]
+    },
+    "edu1": {
+      "date": "August 2022 - March 2026 (Expected)",
+      "title": "B.Sc. Computer Science - Dual Program",
+      "company": "Hochschule Darmstadt",
+      "description": [
+        "Focus areas: Embedded Systems, Operating Systems, Compiler Construction",
+        "Current GPA: 2.2",
+        "Developed a compiler in C++ using Bison, Flex, and LLVM"
+      ]
+    },
+    "edu2": {
+      "date": "October 2020 - March 2022",
+      "title": "B.Sc. Applied Computer Science",
+      "company": "Hochschule Mainz",
+      "description": [
+        "Topics included: IT Security, Web Technologies, Intelligent Information Systems",
+        "GPA: 2.0"
+      ]
+    },
+    "edu3": {
+      "date": "August 2018 - July 2020",
+      "title": "Advanced Technical College Entrance Qualification",
+      "company": "Realschule Plus und Fachoberschule Mendig",
+      "description": [
+        "Specialized in: Technical Computer Science",
+        "GPA: 2.1"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "text": "You can reach me via email or find me on social media.",
+    "button": "Email Me"
+  },
+  "footer": {
+    "location": "📍 Based in Darmstadt, Germany",
+    "copyright": "&copy; 2025 Moritz Bengel • Crafted with ❤️ and ☕"
+  }
+}

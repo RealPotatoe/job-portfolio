@@ -1,0 +1,137 @@
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: var(--text-color);
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    background-color: var(--primary-color);
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    /* Position the line on the left */
+    z-index: 1;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    /* Change to row-reverse to have logo on right */
+    position: relative;
+    margin-left: 40px;
+    /* Make space for the line and marker */
+    opacity: 0;
+}
+
+.timeline-item.float-in {
+    animation: floatIn 0.5s ease-out forwards;
+}
+
+.timeline-item:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.timeline-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.timeline-item:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.timeline-item:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+@keyframes floatIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    top: 25px;
+    left: -8px;
+    /* Position the marker on the line */
+    z-index: 2;
+    border: 2px solid var(--background-color-light);
+}
+
+.timeline-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 0;
+    /* Adjust margin for logo on right */
+    margin-left: 20px;
+}
+
+.timeline-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.timeline-content {
+    flex: 1;
+}
+
+.timeline-date {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.timeline-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.timeline-company {
+    font-style: italic;
+    color: var(--text-secondary-color);
+    margin-bottom: 15px;
+}
+
+.timeline-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.timeline-description li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+@media (min-width: 968px) {
+    .timeline {
+        max-width: 100%;
+    }
+}

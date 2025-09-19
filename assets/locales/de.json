@@ -1,0 +1,72 @@
+{
+    "title": "Moritz Bengel",
+    "hero": {
+        "title": "Moritz Bengel",
+        "subtitle": "Full-Stack-Entwickler",
+        "description": "Ich entwickle moderne Webanwendungen<br> mit sauberem Code und neuen Technologien ...<br> ... angetrieben von Neugier und Kaffee ☕",
+        "button": "Meine Arbeiten ansehen"
+    },
+    "about": {
+        "title": "Über mich",
+        "text": "Ich bin ein Full-Stack-Entwickler, der es liebt, neueste Open-Source-Technologien zusammen mit ihren lebendigen Communities zu erkunden. Während ich mein Informatikstudium absolviere und bei der Deutschen Telekom arbeite, tauche ich tief in Go ein und baue dabei auf meiner soliden Python-Grundlage auf. Besonders faszinieren mich Tools wie Deno und Svelte aufgrund ihrer innovativen Ansätze und aktiven Entwickler-Communities.",
+        "hobbiesTitle": "Hobbys",
+        "hobby1": "Kaffee",
+        "hobby2": "Wandern",
+        "hobby3": "Sammelkartenspiele"
+    },
+    "skills": {
+        "title": "Fähigkeiten",
+        "favoriteTools": "Meine Lieblingstools",
+        "otherSkills": "Weitere Fähigkeiten"
+    },
+    "experience": {
+        "title": "Erfahrung & Ausbildung",
+        "job1": {
+            "date": "August 2022 – Heute",
+            "title": "Duales Studium Informatik",
+            "company": "Deutsche Telekom AG, Darmstadt",
+            "description": [
+                "Erweiterung der Backend-Unit-Testabdeckung für bessere Testbarkeit und Wartbarkeit",
+                "Evaluierung und Einführung eines E2E-Testframeworks (Playwright) mit automatisierter Testimplementierung",
+                "Agile Entwicklung mit Scrum und modernen DevOps-Praktiken (CI/CD, Containerisierung)"
+            ]
+        },
+        "edu1": {
+            "date": "August 2022 – Voraussichtlich März 2026",
+            "title": "B.Sc. Informatik – Duales Studium",
+            "company": "Hochschule Darmstadt",
+            "description": [
+                "Schwerpunkte: Eingebettete Systeme, Betriebssysteme, Compilerbau",
+                "Aktueller Notendurchschnitt: 2,2",
+                "Entwicklung eines Compilers in C++ mit Bison, Flex und LLVM"
+            ]
+        },
+        "edu2": {
+            "date": "Oktober 2020 – März 2022",
+            "title": "B.Sc. Angewandte Informatik",
+            "company": "Hochschule Mainz",
+            "description": [
+                "Themen: IT-Sicherheit, Webtechnologien, Intelligente Informationssysteme",
+                "Notendurchschnitt: 2,0"
+            ]
+        },
+        "edu3": {
+            "date": "August 2018 – Juli 2020",
+            "title": "Fachhochschulreife",
+            "company": "Realschule Plus und Fachoberschule Mendig",
+            "description": [
+                "Fachrichtung: Technische Informatik",
+                "Notendurchschnitt: 2,1"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Kontakt",
+        "text": "Du kannst mich per E-Mail erreichen oder in den sozialen Medien finden.",
+        "button": "Schreib mir eine E-Mail"
+    },
+    "footer": {
+        "location": "📍 Ansässig in Darmstadt, Deutschland",
+        "copyright": "&copy; 2025 Moritz Bengel • Entwickelt mit ❤️ und ☕"
+    }
+}

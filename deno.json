@@ -1,0 +1,13 @@
+{
+    "tasks": {
+        "build": "deno run -A build.ts"
+    },
+    "imports": {
+        "esbuild": "https://deno.land/x/esbuild@v0.20.2/mod.js"
+    },
+    "fmt": {
+        "indentWidth": 4,
+        "useTabs": false,
+        "singleQuote": false
+    }
+}

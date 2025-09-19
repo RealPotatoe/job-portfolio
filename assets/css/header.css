@@ -1,0 +1,58 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1000;
+    gap: 1.5rem;
+}
+
+.lang-switcher button {
+    background: none;
+    border: none;
+    color: var(--font-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.lang-switcher button:hover {
+    color: var(--primary-color);
+}
+
+.lang-switcher button.active {
+    display: none;
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    color: var(--font-color);
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.theme-toggle:hover {
+    color: var(--primary-color);
+}
+
+.theme-toggle .fa-sun {
+    display: none;
+}
+
+.theme-toggle .fa-moon {
+    display: block;
+}
+
+[data-theme="dark"] .theme-toggle .fa-sun {
+    display: block;
+}
+
+[data-theme="dark"] .theme-toggle .fa-moon {
+    display: none;
+}

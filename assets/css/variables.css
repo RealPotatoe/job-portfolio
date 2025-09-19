@@ -1,0 +1,18 @@
+:root {
+    --background-color: #fff5ee;
+    --background-color-light: #fff;
+    --font-color: #2f3542;
+    --font-family: "Inter", sans-serif;
+    --primary-color: #ff7f50;
+    --secondary-color: #ffa07a;
+    --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+    --background-color: #1a1a1a;
+    --background-color-light: #2a2a2a;
+    --font-color: #e0e0e0;
+    --primary-color: #ff6347;
+    --secondary-color: #ff4500;
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
